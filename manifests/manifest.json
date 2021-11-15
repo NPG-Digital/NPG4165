@@ -62,10 +62,16 @@
           "height" : 2400,
           "width" : 3513
         },
-        "on" : "http://27e3236e-55c0-4231-90e6-4fec504679c3"
-      } ]
-    } ]
-  } ],
+       "on": "https://npg-digital.github.io/NPG4165/manifests/manifest.json"
+						}],
+							"otherContent": [{
+                                                       "@type": "sc:AnnotationList",
+                                                       "@id": "https://npg-digital.github.io/NPG4165/annotations/annotation.json"
+
+                                         }],
+										 "related" : ""
+										 }]
+		}],
   "structures" : [ ],
   "logo" : "https://www.npg.org.uk/assets/images/layout/logo_trans_black.png"
 }
