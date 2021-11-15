@@ -1,0 +1,71 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://NPG-Digital.github.io/NPG4165/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "King Edward VI and the Pope",
+  "metadata" : [ {
+    "label" : "Medium",
+    "value" : "oil on panel"
+  }, {
+    "label" : "Date",
+    "value" : "circa 1575"
+  }, {
+    "label" : "Image size",
+    "value" : "24 1/2 in. x 35 3/4 in. (622 mm x 908 mm)"
+  }, {
+    "label" : "Classification",
+    "value" : "Primary Collection"
+  }, {
+    "label" : "Purchased",
+    "value" : "1960"
+  }, {
+    "label" : "Object Number",
+    "value" : "NPG 4165"
+  }, {
+    "label" : "Credit line",
+    "value" : "© National Portrait Gallery, London"
+  } ],
+  "description" : [ ],
+  "attribution" : "© National Portrait Gallery, London",
+  "sequences" : [ {
+    "@id" : "http://ffd2b236-e06b-472a-b601-1a094482bbc1",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://27e3236e-55c0-4231-90e6-4fec504679c3",
+      "@type" : "sc:Canvas",
+      "label" : "King Edward VI and the Pope from the National Portrait Gallery, London ",
+      "height" : 2400,
+      "width" : 3513,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f21a4f53-7278-4729-852d-f36d24988cb3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://storiiies-images.cogapp.com/iiif/2/16366333782524165.ptif/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://storiiies-images.cogapp.com/iiif/2/16366333782524165.ptif",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 8431200,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2400,
+          "width" : 3513
+        },
+        "on" : "http://27e3236e-55c0-4231-90e6-4fec504679c3"
+      } ]
+    } ]
+  } ],
+  "structures" : [ ],
+  "logo" : "https://www.npg.org.uk/assets/images/layout/logo_trans_black.png"
+}
