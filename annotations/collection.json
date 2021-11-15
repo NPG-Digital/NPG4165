@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://NPG-Digital.github.io/NPG4165/annotations/annotation.json" ],
+  "@id" : "https://NPG-Digital.github.io/NPG4165/annotations/collection.json",
+  "label" : "All annotations loaded in NPG-Digital/NPG4165 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
